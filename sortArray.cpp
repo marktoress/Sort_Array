@@ -8,7 +8,7 @@
 using namespace std;
 
 	
-	// «аполнение матрицы уникальными числами
+	
 
 int main()
 {
@@ -16,6 +16,9 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	srand(time(NULL));
+
+	// «аполнение матрицы уникальными числами
+
 	const int m = 5;
 	const int n = 5;
 	int arr[m][n];
