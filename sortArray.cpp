@@ -12,8 +12,9 @@ using namespace std;
 
 int main()
 {
-	
-	setlocale(LC_ALL,"rus");
+	setlocale(LC_ALL, "Russian");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 	srand(time(NULL));
 	const int m = 5;
 	const int n = 5;
